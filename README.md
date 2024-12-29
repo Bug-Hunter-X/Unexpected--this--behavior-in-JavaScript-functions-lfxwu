@@ -1,0 +1,3 @@
+# Unexpected 'this' behavior in JavaScript functions
+
+This repository demonstrates a common JavaScript bug related to the unexpected behavior of the `this` keyword within functions.  The `bug.js` file shows the problematic code, where calling a function without an explicit object context leads to `this` being `undefined` in strict mode. The solution, found in `bugSolution.js`, addresses this by explicitly binding the function to a specific context or using arrow functions.
